@@ -8,4 +8,5 @@ contract MyToken is ERC20{
     constructor() ERC20("Night star","NSR"){
         _mint(msg.sender, _initial_supply);
     }  
+
 }
